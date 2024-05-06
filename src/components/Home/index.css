@@ -1,0 +1,126 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    background-color: lightblue;
+   
+    width: 100%;
+}
+
+.dashboard-container{
+   align-self: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    text-align: center;
+    margin: 20px;
+}
+.inputs-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.dashboard-container-text{
+    color: #030524;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 26px;
+    align-self: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.search-input-container{
+    background-color: #f0ce5d;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.drop-down-list-container{
+    background-color: #f0ce5d;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product-image{
+    width: 30px;
+    height: 30px;
+    background: none;
+    background-color: transparent;
+}
+.table-container{
+    margin: 20px;
+    border-radius:10px ;
+    background-color: #f0ce5d;
+    padding: 20px;
+}
+th{
+    border: 2px solid #000000;
+    color: darkblue;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+}
+td{
+    border: 2px solid #000000;
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.ul-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.button{
+    background-color: none;
+    background: none;
+    outline: none;
+    color: #030524;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+}
+
+.text{
+    color: #030524;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    padding: 30px;
+}
